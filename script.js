@@ -189,7 +189,7 @@
 // ....................................................................
 
 
-function sample(){
+// function sample(){
 
 
     // let result=document.getElementById("name")
@@ -208,88 +208,166 @@ function sample(){
     // h2.innerHTML=no1+no2
 
 
-    let no1=parseInt(document.getElementById("no1").value)
-    let no2=parseInt(document.getElementById("no2").value)
-    let h2=document.getElementById("display")
+    // let no1=parseInt(document.getElementById("no1").value)
+    // let no2=parseInt(document.getElementById("no2").value)
+    // let h2=document.getElementById("display")
 
-    if(no1==no2){
-        h2.innerHTML='eql'
-    }
-    else if(no1!=no2){
-        h2.innerHTML='not eql'
-    }
+    // if(no1==no2){
+    //     h2.innerHTML='eql'
+    // }
+    // else if(no1!=no2){
+    //     h2.innerHTML='not eql'
+    // }
   
+
+    // FOR LOOP...............................
+
+    // let i=1
+    // for (let i=1;i<=10;i++){
+    //     console.log(i);
+        
+    // }
+
+    //  WHILE LOOP.............................
+
+    // let i=1
+    // while (i<=10){
+    //     console.log(i);
+    //     i++
+        
+    // }
+
+
+    // DO WHILE...................................
+
+    // let i=1
+    // do{
+    //     console.log(i);
+    //     i++
+        
+    // }
+    // while(i<=10)
+
+
+
+
+
+
 
 
 
 
     
-}
+// }
 
-function add(){
-    let no1=parseInt(document.getElementById("no1").value)
-    let no2=parseInt(document.getElementById("no2").value)
-    let h2=document.getElementById("display")
-    h2.innerHTML=no1+no2
-
-
-}
-
-function sub(){
-    let no1=parseInt(document.getElementById("no1").value)
-    let no2=parseInt(document.getElementById("no2").value)
-    let h2=document.getElementById("display")
-    h2.innerHTML=no1-no2
+// function add(){
+//     let no1=parseInt(document.getElementById("no1").value)
+//     let no2=parseInt(document.getElementById("no2").value)
+//     let h2=document.getElementById("display")
+//     h2.innerHTML=no1+no2
 
 
-}
+// }
 
-function mult(){
-    let no1=parseInt(document.getElementById("no1").value)
-    let no2=parseInt(document.getElementById("no2").value)
-    let h2=document.getElementById("display")
-    h2.innerHTML=no1*no2
+// function sub(){
+//     let no1=parseInt(document.getElementById("no1").value)
+//     let no2=parseInt(document.getElementById("no2").value)
+//     let h2=document.getElementById("display")
+//     h2.innerHTML=no1-no2
 
-}
 
-function div(){
-    let no1=parseInt(document.getElementById("no1").value)
-    let no2=parseInt(document.getElementById("no2").value)
-    let h2=document.getElementById("display")
-    h2.innerHTML=no1/no2
+// }
 
-}
+// function mult(){
+//     let no1=parseInt(document.getElementById("no1").value)
+//     let no2=parseInt(document.getElementById("no2").value)
+//     let h2=document.getElementById("display")
+//     h2.innerHTML=no1*no2
 
-function mod(){
-    let no1=parseInt(document.getElementById("no1").value)
-    let no2=parseInt(document.getElementById("no2").value)
-    let h2=document.getElementById("display")
-    h2.innerHTML=no1%no2
+// }
+
+// function div(){
+//     let no1=parseInt(document.getElementById("no1").value)
+//     let no2=parseInt(document.getElementById("no2").value)
+//     let h2=document.getElementById("display")
+//     h2.innerHTML=no1/no2
+
+// }
+
+// function mod(){
+//     let no1=parseInt(document.getElementById("no1").value)
+//     let no2=parseInt(document.getElementById("no2").value)
+//     let h2=document.getElementById("display")
+//     h2.innerHTML=no1%no2
 
     
-}
+// }
 
-// conditional statements tasks:
+// // conditional statements tasks:
 
-function bonus(){
-    let salary=parseInt(document.getElementById("salary").value)
-    let year=parseInt(document.getElementById("year").value)
-    let h2=document.getElementById("display")
+// function bonus(){
+//     let salary=parseInt(document.getElementById("salary").value)
+//     let year=parseInt(document.getElementById("year").value)
+//     let h2=document.getElementById("display")
 
-    if(year>=5){
-        h2.innerHTML=salary*0.05+salary
-    }
-    else {
-        h2.innerHTML='no bonus'
-    }
+//     if(year>=5){
+//         h2.innerHTML=salary*0.05+salary
+//     }
+//     else {
+//         h2.innerHTML='no bonus'
+//     }
   
 
+// }
+// let year=parseInt(document.getElementById("num").value)
+// let h2=document.getElementById("display")
+// function divisible(){
+//     if(num%3==0){
+//         h2.innerHTML='is divisible'
+//     }
+//     else{
+//         h2.innerHTML='not divisible'
+//     }
+
+// }
+
+function odd(){
+    let num1=parseInt(document.getElementById("num1").value)
+    let num2=parseInt(document.getElementById("num2").value)
+    let h2=document.getElementById("display")
+    let i=num1
+
+    for(let i =num1;i<=num2;i++){
+        if (i%2!=0){
+        console.log(i);
+    }
 }
-let year=parseInt(document.getElementById("num").value)
-let h2=document.getElementById("display")
-function divisible(){
+}
+
+function even(){
+    let num1=parseInt(document.getElementById("num1").value)
+    let num2=parseInt(document.getElementById("num2").value)
+    let h2=document.getElementById("display")
+    let i=num1
+
+    for(let i =num1;i<=num2;i++){
+        if (i%2==0){
+        console.log(i);
+    }
+}
+}
+
+function multtable(){
+    let num=parseInt(document.getElementById("num").value)
+    a=1
+    for(let i=a;i<=10;i++){
+        console.log(a,'*',num,'=',a*num)
+        a+=1
+        
+    }
 
 }
+
 
 
 
