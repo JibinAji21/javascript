@@ -40,7 +40,7 @@
 const fetchdata = async () =>{
     try{
         const response = await fetch("https://dummyjson.com/products")
-        console.log(response);
+        // console.log(response);
         const data =await response.json()
         // console.log(data.products);
         const row = document.querySelector(".row")
